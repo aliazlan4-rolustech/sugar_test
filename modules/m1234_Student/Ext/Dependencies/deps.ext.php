@@ -6,7 +6,7 @@
 
 
 $dependencies['m1234_Student']['example_depn'] = array(
-'hooks' => array("edit"),
+'hooks' => array("all"),
 //Trigger formula for the dependency. Defaults to 'true'.
 'trigger' => 'true',
 'triggerFields' => array('first_name'),
