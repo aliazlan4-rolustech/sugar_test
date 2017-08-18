@@ -93,5 +93,22 @@
         'server_round_trip_method'
     );
 
+    $hook_array['after_routing'] = Array();
+    $hook_array['after_routing'][] = Array(
+        //Processing index. For sorting the array.
+        1,
+
+        //Label. A string value to identify the hook.
+        'after_routing example',
+
+        //The PHP file where your class is located.
+        'custom/modules/logic_hooks_class.php',
+
+        //The class the method is in.
+        'logic_hooks_class',
+
+        //The method to call.
+        'after_routing_method'
+    );
 
 ?>

@@ -28,6 +28,11 @@
         {
             //display logic should check for $_REQUEST["to_pdf"]
         }
+
+        function after_routing_method($event, $arguments)
+        {
+            //logic
+        }
     }
 
 ?>
