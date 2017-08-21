@@ -17,7 +17,7 @@
         'LBL_LINK_DESCRIPTION',
 
         //Link URL - For Sidecar modules
-        'javascript:parent.SUGAR.App.router.navigate("<module>/<path>", {trigger: true});',
+        './index.php?module=Schedulers&action=index',
 
         //Alternatively, if you are linking to BWC modules
         //'./index.php?module=<module>&action=<action>',
