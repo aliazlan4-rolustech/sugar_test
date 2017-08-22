@@ -1,9 +1,4 @@
 <?php
-// WARNING: The contents of this file are auto-generated.
-?>
-<?php
-// Merged from custom/Extension/application/Ext/Extensions/example.php
-
 
 $extensions['example'] = array(
     'section' => 'example',
@@ -11,5 +6,3 @@ $extensions['example'] = array(
     'file' => 'example.ext.php',
     'module' => 'application' //optional paramater
 );
-
-?>
